@@ -31,7 +31,7 @@ export default {
             animation: {
                 slide: "slide 12s infinite ease-in-out",
                 swipein: "swipein 0.4s ease-in",
-                steadyslide: "steadyslide 12s infinite linear",
+                steadyslide: "steadyslide 18s infinite linear",
             },
 
             fontFamily: {
