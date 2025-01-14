@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.Marquee {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Marquee-content {
+  display: flex;
+  animation-name: marquee;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction:alternate;
+  transform: translateX(0);
+}
+
+.Marquee-content:hover {
+  animation-play-state: paused;
+}
+
+.Marquee-tag {
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.Marquee-tag:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}

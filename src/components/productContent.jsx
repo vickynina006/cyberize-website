@@ -6,7 +6,7 @@ export default function ProductContent({
   textColor = "text-white",
   hover = " hover:bg-backgroundcolo hover:text-darkgray",
 }) {
-  const buttonStyle = `py-4 px-4 inline-block ${textColor} ${color} rounded-full shadow-outsideshadow md:px-10 ${hover}`;
+  const buttonStyle = `py-4 px-4 inline-block ${textColor} ${color} rounded-full shadow-outsideshadow md:px-10 Marquee-tag ${hover}`;
 
   return (
     <div className="flex flex-col flex-shrink-0 justify-center items-center py-4 px-4 md:py-10 md:px-12 rounded-xl shadow-outsideshadow w-full md:w-[47.5%]">
