@@ -8,13 +8,13 @@ export default function HeroButton() {
         <SmallButton />
         <HeroBigButton
           title="Contact Us"
-          href="#product"
+          href="#products"
           color="bg-darkorange"
           textColor="text-white"
         />
       </div>
       <div class="flex items-center space-x-9 md:space-x-4 lg:space-x-9">
-        <HeroBigButton title="Products" href="#product" />
+        <HeroBigButton title="Products" href="#products" />
         <SmallButton color="bg-darkorange" />
       </div>
     </div>

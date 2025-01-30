@@ -7,9 +7,10 @@ export default function ProductSection() {
   return (
     <section
       id="products"
-       class="py-24 px-10 w-full Marquee "  >
-<div class="Marquee-content  space-x-20 w-full ">
-       <ProductContent
+      className="flex py-24 px-10 w-full overflow-hidden Marquee "
+    >
+      <div className="Marquee-content flex space-x-20 w-full animate-steadyslidesm md:animate-steadyslide">
+        <ProductContent
           title="Explained"
           label=" As the name implies is Blog designed to clearify doubts/confusion people have about anything and also teach/push all tech related content."
           src={explained}
@@ -40,10 +41,7 @@ export default function ProductSection() {
               Gender of unborn kids"
           src={healthwise}
         />
-
-        
-        
       </div>
-       </section>
+    </section>
   );
 }
