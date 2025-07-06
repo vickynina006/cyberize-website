@@ -28,7 +28,7 @@ export default {
         },
         swipein: {
           "0%, 25%": { transform: "translateY(115%)" },
-          "50% 100%": { transform: "translateX(0%)" },
+          "50% 100%": { transform: "translateY(0%)" },
         },
       },
       animation: {
