@@ -28,6 +28,8 @@ export default function ProductSection() {
           color="bg-backgroundcolo"
           textColor="text-darkgray"
           hover="hover:text-brightgray hover:bg-backgroundcolo"
+          projectLink=""
+          ClickMessage="In Development"
         />
         <ProductContent
           title="Eke"
