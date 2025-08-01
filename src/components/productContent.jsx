@@ -5,6 +5,8 @@ export default function ProductContent({
   color = "bg-darkorange",
   textColor = "text-white",
   hover = " hover:bg-backgroundcolo hover:text-darkgray",
+  projectLink,
+  ClickMessage
 }) {
   const buttonStyle = `py-4 px-4 inline-block ${textColor} ${color} rounded-full shadow-outsideshadow md:px-10 Marquee-tag ${hover}`;
 
@@ -20,8 +22,8 @@ export default function ProductContent({
       <div className="space-y-5 flex flex-col justify-center items-center">
         <h1 className="text-3xl font-semibold text-gray-800">{title}</h1>
         <p className="text-[1.2rem] text-darkgray text-center">{label}</p>
-        <a href="" className={buttonStyle}>
-          In Development
+        <a href={projectLink} className={buttonStyle}>
+          {ClickMessage}
         </a>
       </div>
     </div>

@@ -14,10 +14,12 @@ export default function ProductSection() {
          <ProductContent
           title="MiddleMan"
           label=" MiddleMan is a Stateless escrow infused Payment gateway(facilitator) bridging the gab between buyers and Online vendors, Providing a secure payment means E-commerce website, Payment Apps And Donations for NGOs, Groups and Churches."
-          src="https://res.cloudinary.com/dchg2nzjt/image/upload/v1754023311/Copilot_20250801_053805-removebg-preview_zsqlme.png"
+          src="https://res.cloudinary.com/dchg2nzjt/image/upload/v1754023224/15734226-1209-4e35-bdbe-3b52050940fa-removebg-preview_uwk7jh.png"
           color="bg-backgroundcolo"
           textColor="text-darkgray"
           hover="hover:text-brightgray hover:bg-backgroundcolo"
+          projectLink="https://middleman.africa/"
+          ClickMessage="Visit MiddleMan"
         />
         <ProductContent
           title="Explained"
@@ -27,7 +29,7 @@ export default function ProductSection() {
           textColor="text-darkgray"
           hover="hover:text-brightgray hover:bg-backgroundcolo"
         />
-{/*         <ProductContent
+        <ProductContent
           title="Eke"
           label=" An E-Commerce (Online market place) Designed with the igbo's
               trading strategies, Enhanced and brought into the web space.."
@@ -35,7 +37,9 @@ export default function ProductSection() {
           color="bg-backgroundcolo"
           textColor="text-darkgray"
           hover="hover:text-brightgray hover:bg-backgroundcolo"
-        /> */}
+          projectLink=""
+          ClickMessage="In Development"
+       />
 {/*         <ProductContent
           title="PickUpStation"
           label=" An efficient logistics company for businesses, It provides
