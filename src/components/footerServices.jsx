@@ -35,7 +35,7 @@ export default function FooterServices() {
         </div>
 
         <a
-          href=""
+          href="mailto:egbule.smart@gmail.com"
           class="flex py-2 justify-center text-lg text-white w-full rounded-lg bg-darkorange mt-5"
         >
           Email Us

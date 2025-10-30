@@ -20,23 +20,22 @@ export default {
 
         steadyslide: {
           "0%": { transform: "translateX(0%)" },
-          "100%": { transform: "translateX(-150%)" },
+          "100%": { transform: "translateX(-120%)" },
         },
         steadyslidesm: {
           "0%": { transform: "translateX(0%)" },
-          "100%": { transform: "translateX(-500%)" },
+          "100%": { transform: "translateX(-385%)" },
         },
-
         swipein: {
           "0%, 25%": { transform: "translateY(115%)" },
-          "50% 100%": { transform: "translateX(0%)" },
+          "50%, 100%": { transform: "translateY(0%)" },
         },
       },
       animation: {
         slide: "slide 12s infinite ease-in-out",
         swipein: "swipein 0.4s ease-in",
-        steadyslide: "steadyslide 18s infinite linear",
-        steadyslidesm: "steadyslidesm 18s infinite linear",
+        steadyslide: "steadyslide 16s infinite alternate linear",
+        steadyslidesm: "steadyslidesm 16s infinite alternate linear",
       },
 
       fontFamily: {
