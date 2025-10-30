@@ -20,10 +20,10 @@ export default function Header() {
           </div>
         )}
 
-        <div class=" hidden text-lg items-center md:space-x-2 md:flex lg:space-x-6">
+        <div className=" hidden text-lg items-center md:space-x-2 md:flex lg:space-x-6">
           <a
             href=""
-            class="px-3.5 py-3 shadow-buttonshadow rounded-full hover:shadow-insideshadow hover:text-brightgray"
+            className="px-3.5 py-3 shadow-buttonshadow rounded-full hover:shadow-insideshadow hover:text-brightgray"
           >
             Home
           </a>

@@ -14,7 +14,7 @@ export default function AboutSection() {
 
       <div class="rounded-lg shadow-outsideshadow py-5 px-8">
         <div class="overflow-hidden w-full">
-          <div class="flex w-full animate-slide">
+          <div class="flex w-full pt-2 animate-slide">
             <AboutParagraph
               title="About Us"
               label="Here at Syntax Solution, we blend innovation, expertise, and

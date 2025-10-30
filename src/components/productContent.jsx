@@ -9,7 +9,7 @@ export default function ProductContent({
   const buttonStyle = `py-4 px-4 inline-block ${textColor} ${color} rounded-full shadow-outsideshadow md:px-10 ${hover}`;
 
   return (
-    <div className="flex flex-col flex-shrink-0 justify-center items-center py-4 px-4 md:py-10 md:px-12 rounded-xl shadow-outsideshadow w-full md:w-[47.5%]">
+    <div className="flex flex-col rounded-xl shadow-outsideshadow w-full flex-shrink-0 justify-center items-center py-4 px-4 md:py-10 md:px-12  md:w-[47.5%]">
       <div className="flex rounded-full mb-5 w-32 h-32 overflow-hidden">
         <img
           src={src}

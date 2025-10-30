@@ -2,14 +2,17 @@ import ProductContent from "./productContent";
 import colorful from "../assets/A colorful logo featuring a stylized, modern design of a delivery truck with gradient colors 1.png";
 import healthwise from "../assets/healthwise.jpeg";
 import eke from "../assets/eke.jpeg";
-import explained from "../assets/explained.jpg";
+import explained from "../assets/explained.png";
 export default function ProductSection() {
   return (
     <section
       id="products"
-      class="py-24 px-10 w-full flex relative overflow-hidden"
+      className="py-24 px-10 w-full flex relative overflow-hidden"
     >
-      <div class="flex space-x-20 w-full animate-steadyslide" id="carousel">
+      <div
+        className="flex space-x-20 w-full animate-steadyslidesm md:animate-steadyslide"
+        id="carousel"
+      >
         <ProductContent
           title="PickUpStation"
           label=" An efficient logistics company for businesses, It provides
