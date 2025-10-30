@@ -10,8 +10,7 @@ export default function ProductSection() {
       className="flex py-24 px-10 w-full overflow-hidden Marquee "
     >
       <div className="Marquee-content flex space-x-20 w-full animate-steadyslidesm md:animate-steadyslide">
-
-         <ProductContent
+        <ProductContent
           title="MiddleMan"
           label=" MiddleMan is a Stateless escrow infused Payment gateway(facilitator) bridging the gab between buyers and Online vendors, Providing a secure payment means E-commerce website, Payment Apps And Donations for NGOs, Groups and Churches."
           src="https://res.cloudinary.com/dchg2nzjt/image/upload/v1754023224/15734226-1209-4e35-bdbe-3b52050940fa-removebg-preview_uwk7jh.png"
@@ -41,21 +40,25 @@ export default function ProductSection() {
           hover="hover:text-brightgray hover:bg-backgroundcolo"
           projectLink=""
           ClickMessage="In Development"
-       />
-{/*         <ProductContent
+        />
+        <ProductContent
           title="PickUpStation"
           label=" An efficient logistics company for businesses, It provides
               services for customers shipping goods locally and soon overseas,
               Utilizing latest technologies while reducing cost and time of
               shipping."
           src={colorful}
+          projectLink=""
+          ClickMessage="In Development"
         />
         <ProductContent
           title="HealthWise"
           label=" Health App Designed to track our health status and even determine
               Gender of unborn kids"
           src={healthwise}
-        /> */}
+          projectLink=""
+          ClickMessage="In Development"
+        />
       </div>
     </section>
   );

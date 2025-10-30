@@ -6,7 +6,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className=" mt-3 relative ">
+    <nav className=" mt-3 relative mx-1 md:mx-0 ">
       <div className="relative flex mx-0.5 justify-between items-center font-raleway text-darkgray bg-backgroundcolo rounded-full px-7 py-5 shadow-insideshadow md:mx-5 md:px-5 lg:px-9 lg:py-6 lg:mx-20">
         <HeaderLogo />
         {isOpen && (
